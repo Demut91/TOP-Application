@@ -1,15 +1,9 @@
-import Head from 'next/head';
-
-
+import React from "react";
+import { Headings } from "../components/Headings";
 export default function Home(): JSX.Element {
   return (
-   
-      <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="Next app" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-     
+    <>
+      <Headings tag="h1">Ну и лан</Headings>
+    </>
   );
 }
